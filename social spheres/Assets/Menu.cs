@@ -1,24 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using easyInputs;
 
 public class Menu : MonoBehaviour
 {
-    [Header("This Script Was Made By Pear :) ")]
-    public Transform rightHandController;
     public GameObject thing;
+    public GameObject menuCanvas;
 
-    // Update is called once per frame
+    private bool isOpen;
+
     private void Update()
     {
         if (EasyInputs.GetPrimaryButtonDown(EasyHand.LeftHand))
         {
-            thing.SetActive(true);
-        }
-        else
-        {
-            thing.SetActive(false);
+            isOpen = !isOpen;
+
+            thing.SetActive(isOpen);
+
+            if (menuCanvas != null)
+                menuCanvas.SetActive(isOpen);
         }
     }
 }
