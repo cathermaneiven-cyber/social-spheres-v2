@@ -3495,6 +3495,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
       propertyPath: carpet.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -3546,6 +3550,18 @@ PrefabInstance:
       propertyPath: metal.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: ac85afcc22d8d0f43ac681bc7a6b6b29, type: 3}
+    - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 92e4ac415e53b54448ae0d012239abc0, type: 3}
+    - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: c2a21a62c5f70ae48bfe3979d531e876, type: 3}
+    - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: cde37d258c3ff914e90c79780e3f9137, type: 3}
     - target: {fileID: 1147068772, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
       propertyPath: carpet.Array.data[0]
       value: 
@@ -3575,6 +3591,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
       propertyPath: carpet.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -3626,6 +3646,18 @@ PrefabInstance:
       propertyPath: metal.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: ac85afcc22d8d0f43ac681bc7a6b6b29, type: 3}
+    - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 92e4ac415e53b54448ae0d012239abc0, type: 3}
+    - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: c2a21a62c5f70ae48bfe3979d531e876, type: 3}
+    - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: stone.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: cde37d258c3ff914e90c79780e3f9137, type: 3}
     - target: {fileID: 1812378917, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
       propertyPath: carpet.Array.data[0]
       value: 
