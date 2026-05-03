@@ -7,6 +7,12 @@ TagManager:
   - HandTag
   - Bullet
   - Wood
+  - Stone
+  - Grass
+  - Glass
+  - Carpet
+  - Dirt
+  - Metal
   layers:
   - Default
   - TransparentFX
@@ -16,7 +22,7 @@ TagManager:
   - UI
   - Left Hand
   - ' Right Hand'
-  - 
+  - NonColidable
   - 
   - 
   - 
