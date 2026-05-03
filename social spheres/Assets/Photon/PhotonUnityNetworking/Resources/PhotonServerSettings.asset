@@ -19,7 +19,7 @@ MonoBehaviour:
     AppIdVoice: 74f4d0b2-8579-447e-855f-16e6644fac10
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: us
     Server: 
     Port: 0
     ProxyServer: 
@@ -39,6 +39,10 @@ MonoBehaviour:
   - ClickRpc
   - DestroyRpc
   - HeresWhy
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPCRefreshPlayerValues
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
