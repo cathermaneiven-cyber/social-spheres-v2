@@ -13,6 +13,7 @@ TagManager:
   - Carpet
   - Dirt
   - Metal
+  - Bodyfix
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Left Hand
   - ' Right Hand'
   - NonColidable
-  - 
+  - LCK Tablet
   - 
   - 
   - 

@@ -17,9 +17,9 @@ MonoBehaviour:
   LastShownOverviewVersion: 1.4.6
   DismissedNotificationBarVersion: 
   TrackingId: a5b14333-8486-499c-8572-b2032f04309a
-  GameName: Soical Spheres
-  RecordingFilenamePrefix: SoicalSpheresClip
-  RecordingAlbumName: Soical Spheres
+  GameName: Social Spheres
+  RecordingFilenamePrefix: SocialSpheresClip
+  RecordingAlbumName: Social Spheres
   RecordingDateSuffixFormat: yyyy-MM-dd_HH-mm-ss
   MicPermissionType: 0
   AddMicPermissionsToAndroidManifest: 1

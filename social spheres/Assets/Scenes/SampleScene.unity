@@ -3554,6 +3554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gorilla Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5952841965718040020, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b728dc5a633404442b6e1557af0f13dc, type: 3}
 --- !u!1 &1129916129 stripped
