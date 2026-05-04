@@ -12,7 +12,7 @@ namespace SocialSpheres.ModIO
 
         private const string API_PATH = "https://g-12943.modapi.io/v1";
         private const int GAME_ID = 12943;
-        private const string API_KEY = "f0c7d3f58d8422d8c36d46ee16544ad1";
+        private const string API_KEY = "f0c7d3f58d8422d8c36d46ee16544ad1"; // regenerate this in mod.io dashboard!
 
         private const int PAGE_SIZE = 9;
 
@@ -119,13 +119,27 @@ namespace SocialSpheres.ModIO
 
             yield return req.SendWebRequest();
 
+            // DEBUG
+            Debug.Log("[ModIO] URL: " + url);
+
             if (req.result != UnityWebRequest.Result.Success)
             {
+                Debug.LogError("[ModIO] FAILED: " + req.error + " | " + req.downloadHandler.text);
                 onError?.Invoke(req.error + " | " + req.downloadHandler.text);
                 yield break;
             }
 
+            // DEBUG - paste this output here so we can see what mod.io returned
+            Debug.Log("[ModIO] Raw JSON: " + req.downloadHandler.text);
+
             ModPage page = JsonUtility.FromJson<ModPage>(req.downloadHandler.text);
+
+            // DEBUG
+            if (page == null)
+                Debug.LogError("[ModIO] ModPage parsed as null!");
+            else
+                Debug.Log("[ModIO] result_count=" + page.result_count + " result_total=" + page.result_total + " data.Length=" + (page.data != null ? page.data.Length.ToString() : "NULL"));
+
             onSuccess?.Invoke(page);
         }
 

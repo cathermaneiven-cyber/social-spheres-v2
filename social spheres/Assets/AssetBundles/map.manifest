@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1656180650
+CRC: 2676708247
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5d5589c9f09c7880730e8201412896ae
+    Hash: 5126b884690d883c07746bdc47f50341
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f5e1a2041cc708de9b4174acdbf79f86
+    Hash: fda05d5c4baa11f9aa769bbf41a60130
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5d5589c9f09c7880730e8201412896ae
+    Hash: 5126b884690d883c07746bdc47f50341
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -32,17 +32,23 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
+  Script: {instanceID: 0}
+- Class: 137
   Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
@@ -57,6 +63,8 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.ProBuilder.Face
 - AssemblyName: Unity.ProBuilder
   ClassName: UnityEngine.ProBuilder.Shapes.Cube
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Plane
 - AssemblyName: Unity.ProBuilder
   ClassName: UnityEngine.ProBuilder.SharedVertex
 - AssemblyName: Unity.ProBuilder
@@ -94,5 +102,6 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 Assets:
+- Assets/map.prefab
 - Assets/MapRoot.prefab
 Dependencies: []
